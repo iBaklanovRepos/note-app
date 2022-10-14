@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "C:\\Users\\ibakl\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe"
+    "python.pythonPath": "C:\\Users\\ibakl\\AppData\\Local\\Microsoft\\WindowsApps\\python.exe",
+    "python.linting.enabled": true
 }
