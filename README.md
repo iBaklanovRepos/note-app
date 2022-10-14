@@ -2,6 +2,14 @@
 
 Note App is a note management app written in Python with Flask usage.
 
+## Functionality
+
+User can login or sign up in system.
+If the authorization is successful user have access to his notes.
+Notes can be removed or added.
+Notes are stored in SQLite database.
+After first launch the app will create database based on declared model classes in [models.py](website/models.py) 
+
 ## Requred Libraries
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required libraries from root node.
