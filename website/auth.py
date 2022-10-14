@@ -24,7 +24,7 @@ def login():
                 flash('Incorrect password. Try again.', category='error')
         else :
             flash('User does not exist', category='error')
-    return render_template('login.html', text='Testing', isAccessible=False)
+    return render_template('login.html', user=current_user)
 
 
 @auth.route('/logout')
@@ -60,4 +60,4 @@ def sign_up():
             login_user(user, remember=True)
             flash('Account created!', category='success')
             return redirect(url_for('views.home'))
-    return render_template('sign_up.html')
+    return render_template('sign_up.html', user=current_user)
