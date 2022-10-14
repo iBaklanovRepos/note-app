@@ -9,7 +9,7 @@ venv/
 env*
 dist/
 build/
-*.egg
+*.egg   
 *.egg-info/
 .tox/
 .cache/
@@ -17,6 +17,7 @@ build/
 .idea/
 docs/_build/
 .vscode
+.db
 
 # Coverage reports
 htmlcov/
