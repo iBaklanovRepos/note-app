@@ -10,7 +10,7 @@ Notes can be removed or added.
 Notes are stored in SQLite database.
 After first launch the app will create database based on declared model classes in [models.py](website/models.py) 
 
-## Requred Libraries
+## Required Libraries
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install required libraries from root node.
 
